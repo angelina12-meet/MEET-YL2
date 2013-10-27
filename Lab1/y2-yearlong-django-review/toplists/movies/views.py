@@ -25,7 +25,7 @@ def movie(request, movie_id):
     return render(request,'movies/movie.html',context)
 
 def add_comment(request, movie_id):
-    addcomment = Comment(text=request.POST['addcomment'] ,movie = Movie.objects.filter() )
+    addcomment = Comment(text=request.POST['addcomment'] ,movie = Movie.objects.filter(git com) )
 
     
     return HttpResponse("adding comment to movie " + movie_id)
