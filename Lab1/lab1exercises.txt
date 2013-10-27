@@ -16,3 +16,5 @@
    d) done :)
 
 * I have finished up until here.
+
+ 3) i) we did this to be able to add comments.
