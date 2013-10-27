@@ -1,0 +1,18 @@
+ 1)
+
+   a)-I typed python manage.py suncdb
+      and then python mange.py runserver after going into the desktop  	     and what was inside it (like : MEET-YL2).
+     -The url we used was 127.0.0.1:8000
+
+   b)-The url for the first movie is http://127.0.0.1:8000/movies/1/.
+     -The url for the second movie is http://127.0.0.1:8000/movies/2/ .
+     -If i added another 100 movies plus the two movies i already   		have ,  the url will be :  http://127.0.0.1:8000/movies/102/ .
+
+   c) -the function that says addmovie gets called.
+      -the function taht says movie gets called.
+      -it will say page not found , beacuse the url for it is not  	  defined.
+
+
+   d) done :)
+
+* I have finished up until here.

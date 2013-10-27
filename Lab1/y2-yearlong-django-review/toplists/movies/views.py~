@@ -17,12 +17,10 @@ def add_movie(request):
     newmovie = Movie(title=request.POST['movie_title'])
     # when making new objects, always remember to save them
     newmovie.save()
-    retucd desktopcd rn HttpResponseRedirect('/movies')
+    return HttpResponseRedirect('/movies')
 
 def movie(request, movie_id):
-    movie = Movie.objects.filter(pk = movie_id)
-    context = {'movie':movie}
-    return render(request,'movies/movie.html',context)
+    return HttpResponse("this is where you see movie number " + movie_id + " and all it's comments")
 
 def add_comment(request, movie_id):
     return HttpResponse("adding comment to movie " + movie_id)
