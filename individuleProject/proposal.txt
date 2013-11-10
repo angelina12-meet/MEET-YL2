@@ -1,0 +1,6 @@
+1. My project will be an app that everytime you shake it , it brings up one of meets 6 values, with its definition and description, and then the user would use his camera to take an image from around him to express the meet value that shows up, he has around 45 seconds to do it :)
+
+2. It will use the accelerometer,and camera.
+3.i still dont know yet.
+4.
+5, By shaking it 
